@@ -14,6 +14,7 @@ body.light-theme,
     --color-border-default: #d0d7de;
     --color-border-muted: #d8dee4;
     --color-post-preview: #fff;
+    --color-memos-pre-bg: #f3f4f6;
    
 
     /* variables for js, must be the same as these in @custom-media queries */
@@ -53,24 +54,7 @@ body.dark-theme {
     --color-memos-pre-bg: #2d333b;
 }
 
-@media (prefers-color-scheme: light) {
-    body:not(.dark-theme) {
-        /* light theme color */
-        --color-main: #ffffff;
-        --color-background: #fff;
-        --color-text-bg: #eaeaea;
-        --color-text-hover: #eeeef1;
-        --color-memos-id: #536471;
-        --color-img-border: #cfd9de;
-        --color-tag: #2563eb;
-        --color-tag-hover: #54a3ff;
-        --color-fg-muted: #576061;
-        --color-border-default: #d0d7de;
-        --color-border-muted: #d8dee4;
-        --color-post-preview: #fff;
-        --color-memos-pre-bg: #f3f4f6;
-    }
-}
+
 
 @media (prefers-color-scheme: dark) {
     body:not(.light-theme) {
