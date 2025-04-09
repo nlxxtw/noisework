@@ -21,13 +21,13 @@ body.light-theme,
     --tabletWidth: (max-width: 900px);
 }
 .main-title {
-    color: Black; /* 设置文字颜色为白色 */
+    color: white; /* 设置文字颜色为白色 */
 }
 .total{
-    color: Black; /* 设置文字颜色为白色 */
+    color: white; /* 设置文字颜色为白色 */
 }
 .footer {
-    color: white; /* 设置 footer 中的文字颜色为白色 */
+    color: Black; /* 设置 footer 中的文字颜色为白色 */
 }
 
 .footer a {
