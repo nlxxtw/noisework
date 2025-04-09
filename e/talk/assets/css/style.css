@@ -27,7 +27,7 @@ body.light-theme,
     color: white; /* 设置文字颜色为白色 */
 }
 .footer {
-    color: Black; /* 设置 footer 中的文字颜色为白色 */
+    color: white; /* 设置 footer 中的文字颜色为白色 */
 }
 
 .footer a {
@@ -111,18 +111,7 @@ body {
     position: relative; /* 确保相对定位 */
 }
 
-/* 添加一个透明度和背景色的覆盖层 */
-body::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: inherit; /* 继承背景 */
-    filter: blur(20px); /* 应用模糊效果 */
-    z-index: -1; /* 确保在内容下方 */
-}
+
 
 /* 手机尺寸 */
 @media (max-width: 800px) {
